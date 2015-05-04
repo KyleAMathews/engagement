@@ -1,0 +1,38 @@
+{
+  "name": "engagement",
+  "version": "1.0.0",
+  "description": "Track engagement of user on page",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleAMathews/engagement.git"
+  },
+  "keywords": [
+    "engagement",
+    "activity",
+    "analytics"
+  ],
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KyleAMathews/engagement/issues"
+  },
+  "homepage": "https://github.com/KyleAMathews/engagement#readme",
+  "dependencies": {
+    "dom-events": "^0.1.1",
+    "lodash.throttle": "^3.0.2"
+  },
+  "devDependencies": {
+    "cjsx-loader": "^2.0.1",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.9.2",
+    "json-loader": "^0.5.1",
+    "react": "^0.13.2",
+    "react-hot-loader": "^1.2.6",
+    "webpack": "^1.8.11",
+    "webpack-dev-server": "^1.8.2"
+  }
+}
