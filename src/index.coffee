@@ -17,6 +17,17 @@ events.on(window, 'mousemove', (e) ->
   throttledActive()
 )
 
+# Listen to touchstart events
+events.on(window, 'touchstart', (e) ->
+  throttledActive()
+)
+
+# Listen to touchmove events
+events.on(window, 'touchmove', (e) ->
+  throttledActive()
+)
+
+# Listen to clicks.
 events.on(window, 'click', (e) ->
   throttledActive()
 )
