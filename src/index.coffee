@@ -12,32 +12,33 @@ active = ->
 
 exports.active = throttledActive = throttle active, 5000, leading: true
 
-# Listen to mouse movements.
-events.on(window, 'mousemove', (e) ->
-  throttledActive()
-)
+if typeof window isnt "undefined"
+  # Listen to mouse movements.
+  events.on(window, 'mousemove', (e) ->
+    throttledActive()
+  )
 
-# Listen to touchstart events
-events.on(window, 'touchstart', (e) ->
-  throttledActive()
-)
+  # Listen to touchstart events
+  events.on(window, 'touchstart', (e) ->
+    throttledActive()
+  )
 
-# Listen to touchmove events
-events.on(window, 'touchmove', (e) ->
-  throttledActive()
-)
+  # Listen to touchmove events
+  events.on(window, 'touchmove', (e) ->
+    throttledActive()
+  )
 
-# Listen to clicks.
-events.on(window, 'click', (e) ->
-  throttledActive()
-)
+  # Listen to clicks.
+  events.on(window, 'click', (e) ->
+    throttledActive()
+  )
 
-# Listen to keyboard presses.
-events.on(window, 'keyup', (e) ->
-  throttledActive()
-)
+  # Listen to keyboard presses.
+  events.on(window, 'keyup', (e) ->
+    throttledActive()
+  )
 
-# Listen for scrolling.
-events.on(window, 'scroll', (e) ->
-  throttledActive()
-)
+  # Listen for scrolling.
+  events.on(window, 'scroll', (e) ->
+    throttledActive()
+  )

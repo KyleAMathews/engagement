@@ -11,9 +11,9 @@
     "url": "git+https://github.com/KyleAMathews/engagement.git"
   },
   "keywords": [
-    "engagement",
     "activity",
-    "analytics"
+    "analytics",
+    "engagement"
   ],
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "license": "MIT",
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/KyleAMathews/engagement#readme",
   "dependencies": {
-    "dom-events": "^0.1.1",
+    "@kylemathews/dom-events": "^0.1.3",
     "lodash.throttle": "^3.0.2"
   },
   "devDependencies": {
