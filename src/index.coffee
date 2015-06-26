@@ -1,5 +1,5 @@
 throttle = require 'lodash.throttle'
-events = require 'dom-events'
+events = require '@kylemathews/dom-events'
 
 listeners = []
 
