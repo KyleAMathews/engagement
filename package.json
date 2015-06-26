@@ -1,6 +1,6 @@
 {
   "name": "engagement",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Track engagement of user on page",
   "main": "dist/index.js",
   "scripts": {
